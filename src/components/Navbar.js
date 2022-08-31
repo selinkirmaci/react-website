@@ -41,7 +41,7 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className='nav-item'>
+            <li className='dropdown'>
               <Link
                 to='/mywork'
                 className='nav-links'
@@ -49,6 +49,11 @@ function Navbar() {
               >
                 My Work
               </Link>
+              <div class="dropdown-content">
+                  <a href="#">Oil Paintings</a>
+                  <a href="#">Digital Paintings</a>
+                  <a href="#">Sketches</a>
+                </div>
             </li>
             <li className='nav-item'>
               <Link
@@ -58,6 +63,7 @@ function Navbar() {
               >
                 About Me
               </Link>
+
             </li>
 
             <li>
